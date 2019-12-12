@@ -14,6 +14,7 @@
 		A675123F23A1E98D006006F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A675123E23A1E98D006006F6 /* Assets.xcassets */; };
 		A675124223A1E98D006006F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A675124023A1E98D006006F6 /* LaunchScreen.storyboard */; };
 		A675124523A1E98D006006F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A675124423A1E98D006006F6 /* main.m */; };
+		A675125023A21634006006F6 /* UIColor+RCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A675124F23A21634006006F6 /* UIColor+RCExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		A675124123A1E98D006006F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A675124323A1E98D006006F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A675124423A1E98D006006F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A675124E23A21634006006F6 /* UIColor+RCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCExtension.h"; sourceTree = "<group>"; };
+		A675124F23A21634006006F6 /* UIColor+RCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		A675123123A1E988006006F6 /* RCStatusBar */ = {
 			isa = PBXGroup;
 			children = (
+				A675124D23A21634006006F6 /* UIColor+RCExtension */,
 				A675123223A1E988006006F6 /* AppDelegate.h */,
 				A675123323A1E988006006F6 /* AppDelegate.m */,
 				A675123523A1E988006006F6 /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				A675124423A1E98D006006F6 /* main.m */,
 			);
 			path = RCStatusBar;
+			sourceTree = "<group>";
+		};
+		A675124D23A21634006006F6 /* UIColor+RCExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A675124E23A21634006006F6 /* UIColor+RCExtension.h */,
+				A675124F23A21634006006F6 /* UIColor+RCExtension.m */,
+			);
+			path = "UIColor+RCExtension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A675125023A21634006006F6 /* UIColor+RCExtension.m in Sources */,
 				A675123A23A1E988006006F6 /* ViewController.m in Sources */,
 				A675123423A1E988006006F6 /* AppDelegate.m in Sources */,
 				A675124523A1E98D006006F6 /* main.m in Sources */,
@@ -290,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6TGECP5WV;
 				INFOPLIST_FILE = RCStatusBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6TGECP5WV;
 				INFOPLIST_FILE = RCStatusBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
